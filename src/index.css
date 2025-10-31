@@ -169,10 +169,9 @@ main > img {
 
 @media (max-width: 600px) {
   .Card {
-    max-width: 95%;
-    height: auto;
-    margin: 20px;
-	padding: 0.5rem;
+    max-width: 100%;
+    margin: 0.5rem;
+	border-radius: 16px;
   }
 
   .Card img {

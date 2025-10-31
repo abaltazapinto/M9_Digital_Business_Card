@@ -5,7 +5,7 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: #242424; /* keep your theme */
   justify-content: center;  /* centra horizontalmente */
   align-items: flex-start;  /* começa no topo */
@@ -21,23 +21,11 @@ html, body {
   justify-content: center;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.05rem;
   text-align: center;
   box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {
