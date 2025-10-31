@@ -10,7 +10,7 @@ html, body {
   justify-content: center;  /* centra horizontalmente */
   align-items: flex-start;  /* começa no topo */
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   padding: 1em;
 }
 
