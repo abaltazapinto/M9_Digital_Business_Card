@@ -1,8 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424; /* keep your theme */
+  justify-content: center;  /* centra horizontalmente */
+  align-items: flex-start;  /* começa no topo */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 1em;
+}
+
 #root {
-  max-width: 80%;
+  max-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .logo {
